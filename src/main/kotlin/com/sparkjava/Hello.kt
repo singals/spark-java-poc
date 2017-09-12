@@ -3,5 +3,5 @@ package com.sparkjava
 import spark.Spark.get
 
 fun main(args: Array<String>) {
-    get("/hello") { req, res -> "Hello World" }
+    get("/hello") { _, _ -> "Hello World" }
 }
