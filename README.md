@@ -17,3 +17,7 @@ In addition:
 > mvn clean install
 
 #### Deploying the application
+
+#### Hello from spark-java-poc
+After running the project, execute
+> http://localhost:4567/hello
