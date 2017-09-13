@@ -1,0 +1,5 @@
+run.config:
+  engine: java
+  engine.config:
+    runtime: openjdk8
+    maven_version: 3.3

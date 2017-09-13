@@ -11,19 +11,25 @@ In addition:
 1. Java v1.8
 2. Maven v3.5.x
 3. Kotlin v1.1.4
+4. nanobox
 
 
 #### Building the application
 > mvn clean install
 
-#### Deploying the application
+#### Running the micro-service
+> java -jar target/spark-java-poc-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 #### Hello from spark-java-poc
 After running the project, execute
-> http://localhost:4567/hello
+> curl localhost:4567/hello
 
+#### Deploying the application
+
+#### Deploying using nanobox(#wip):
+> nanobox run
 
 ##### TODOs
-1. Make jar executable
-2. Integrate with nanobox
-3. Integrate with Linode
+1. Make nanobox deployment for
+    1. Development environment
+    2. Linode (for Prod)
