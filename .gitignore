@@ -1,3 +1,5 @@
 /.idea/
 /target/
 /spark-java-poc.iml
+*.class
+/com/

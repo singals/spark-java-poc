@@ -21,3 +21,9 @@ In addition:
 #### Hello from spark-java-poc
 After running the project, execute
 > http://localhost:4567/hello
+
+
+##### TODOs
+1. Make jar executable
+2. Integrate with nanobox
+3. Integrate with Linode
