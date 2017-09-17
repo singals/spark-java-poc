@@ -1,11 +1,11 @@
 ## Spark-Java POC
 
-This is a POC for [Spark-Java](http://sparkjava.com) using [Kotlin](https://kotlinlang.org/) for development.
+This is a POC for [Spark-Java](http://sparkjava.com) using [Kotlin](https://kotlinlang.org/).
 
 In addition:
 
 1. It supports deployment to [Linode](https://www.linode.com) using [Nanobox](https://nanobox.io) - #WIP (Issues with nanobox java engine)
-2. It supports deployment to [Linode](https://www.linode.com) using [Docker](https://www.docker.com/)
+2. It supports deployment to [Linode](https://www.linode.com) or any other server using [Docker](https://www.docker.com/)
 3. Maven for dependency and build management
 
 #### Pre-requisites:
@@ -19,7 +19,7 @@ In addition:
 #### Building the application
 > mvn clean install
 
-#### Running the micro-service
+#### Running the micro-service (without docker/nanobox)
 > java -jar target/spark-java-poc-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 #### Hello from spark-java-poc
