@@ -1,5 +1,5 @@
 run.config:
   engine: java
   engine.config:
-    runtime: openjdk8
+    runtime: oraclejdk8
     maven_version: 3.3

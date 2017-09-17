@@ -27,7 +27,10 @@ After running the project, execute
 #### Deploying the application
 
 #### Deploying using nanobox(#wip):
+Make sure that the project is built successfully
 > nanobox run
+
+> nanobox java -jar target/spark-java-poc-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 ##### TODOs
 1. Make nanobox deployment for
